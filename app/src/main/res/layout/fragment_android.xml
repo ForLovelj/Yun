@@ -1,0 +1,16 @@
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+                     xmlns:android="http://schemas.android.com/apk/res/android"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     tools:context="dth.com.yun.fragment.AndroidFragment">
+
+        <com.example.xrecyclerview.XRecyclerView
+            android:id="@+id/xrv_android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarFadeDuration="1"
+            android:scrollbarSize="4dp"
+            android:scrollbarThumbVertical="@color/tabBackground"
+            android:scrollbars="vertical" />
+
+    </FrameLayout>
